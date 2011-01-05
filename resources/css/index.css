@@ -1,0 +1,813 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face { font-family: "Futura-Light"; src: url("/htdocs/css/fonts/FuturaStd-Light.otf"); }
+@font-face { font-family: "Futura-LightCondensed"; src: url("/htdocs/css/fonts/FuturaStd-CondensedLight.otf"); }
+@font-face { font-family: "Futura-Medium"; src: url("/htdocs/css/fonts/FuturaStd-Medium.otf"); }
+@font-face { font-family: "Futura-Heavy"; src: url("/htdocs/css/fonts/FuturaStd-Heavy.otf"); }
+@font-face { font-family: "Futura-Book"; src: url("/htdocs/css/fonts/FuturaStd-Book.otf"); }
+@font-face { font-family: "Stowe"; src: url("/htdocs/css/fonts/STOWE__.TTF");}
+@font-face { font-family: "Geo-SanLt"; src: url("/htdocs/css/fonts/GeosansLight.ttf");}
+@font-face { font-family: "Geo-SanLt-Oblique"; src: url("/htdocs/css/fonts/GeosansLight-Oblique.ttf");}
+
+
+body {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	width:1000px;
+	margin:0 auto;
+	text-align:left;
+	margin-top:50px;
+	font-size:9px;
+	line-height:12px;
+	color:#666;
+	background-image:url('/htdocs/css/images/LucaLorainBackFlat.png');
+	background-position: top right;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+}
+
+a{
+	text-decoration:none;
+}
+
+a:hover{
+	text-decoration:underline;
+	cursor:pointer;
+}
+
+#wrapper{
+	float:left;	
+	width:1000px;
+}
+
+fieldset{
+	margin:5px 0px 5px 0px;
+	padding:5px;
+	float:left;
+	width:98%;
+}
+#breadcrumbs{
+	float:left;
+	width:100%;
+}
+
+#productRightColumn{
+
+	float:right;
+	width:488px;
+}
+
+.rewardpoint{
+margin:0px;
+padding:0px;
+}
+
+.error{
+width:100%;
+float:left;
+background-color:#FF6;
+}
+
+img {
+	border:none;
+}
+
+
+#DancewearRialtoTitle {
+	font-family:Stowe;
+	font-size:24pt;
+	color:black;
+}
+#DancewearRialtoTitleLine{
+	margin-left:100px;
+	color:black;
+}
+
+#leftContainer{
+	width:49%;
+	float:left;
+}
+
+#rightContainer{
+	width:49%;
+	float:right;
+}
+
+legend{
+	color:white;
+	font-size:14px;
+	background:#069;
+	padding:5px;
+}
+
+.text{
+	font-size:1em;
+}
+
+label{
+	width:200px;
+	float:left;
+}
+
+.submit2{
+	margin-left:200px;	
+}
+
+.captcha{
+	float:left;
+	width:100%;
+	margin-left:200px;
+	margin-bottom:10px;
+}
+
+.row{
+	float:left;
+	width:100%;
+}
+
+.submit{
+	float:left;
+	width:100%;
+}
+
+/*********************************Anchor styles**************/
+a.submitInputButton{
+padding:3px;
+float:left;
+}
+a.submitInputButton:hover{
+	text-decoration:none;
+	background:#F90;
+	color:#069;
+}
+
+
+/*****account info style*****/
+.shippingAddressBox{
+	width: 220px;
+	float:left;
+	height:130px;
+}
+
+ul#post_images {
+	width:100%;
+	float:left;
+}
+
+ul#post_images li{
+	list-style:none;
+	display:inline;
+	float:left;
+	padding-left:5px;
+}
+
+ul#post_images img{
+}
+
+ul#post_images form{
+}
+
+#userProductEdit label{
+	width:45%;
+	float:left;
+}
+
+#userProductEdit select{
+	float:left;
+	width:45%;
+}
+
+/*CLASSES*/
+.imageAttributeDivContainer{
+	width:100%;
+	float:left;
+}
+.imageAttributeDivContainerElement{
+	width:180px;
+	background-color:#CCC;
+	margin:10px;
+	float:left;
+}
+.imageAttributeDivContainerElement img{
+	width:80px;
+	padding-right:10px;
+	float:left;
+}
+
+.imageAttributeElementDelete img{
+	width:20px;
+	float:right;
+	border:none;
+}
+
+.imageAttributeElementName{
+	width:80px;
+	float:left;
+}
+.imageAttributeElementPriceAdjustment{
+	width:50px;
+	float:left;
+}
+
+.sizeAttributeDivContainer{
+	width:100%;
+	float:left;
+}
+
+.CrossImage img{
+	width:20px;
+	float:left;
+	margin-right:15px;
+	border:none;
+}
+/*********************************************************Messages****************************************/
+#messages{
+	width:100%;
+	height:50px;
+
+}
+
+#messageboxNavigation{
+	border-bottom:2px solid #666666; height:30px; width:100%;
+}
+
+/*********************************************************Navigation**************************************/
+#leftPanelTagNavigation
+{
+	line-height:14px;	
+}
+.LeftPanelTagNavFirstTier{
+	font-size:1.2em;
+	color:#069;
+	font-weight:bold;
+}
+.LeftPanelTagNavSecondTier{
+	font-weight:bold;	
+}
+
+#productTagHeader{
+	width:100%;
+	height:30px;	
+	border-bottom:2px solid #666;
+}
+
+#productTagSecondHeader{
+	width:100%;
+	padding-top:5px;
+	float:left;
+}
+#productTagBody{
+	float:left;
+}
+
+a.productTagHeaderButton{
+font-size:1.2em;
+font-weight:bold;
+background-color:#CCC;
+border:none;
+height:10px;
+padding:10px;
+color:white;
+float:left;
+cursor:pointer;
+}
+
+a.productTagHeaderButton:hover{
+background-color:#F63;
+color:white;
+
+}
+
+a.currentSeller{
+	background:#666;
+	color:white;
+}
+a.currentSelection{
+	background:#666;
+	color:white;
+}
+
+/*********************************************************FIELDSET****************************************/
+#rewardLeftColumn ul{
+}
+
+#rewardLeftColumn ul li{
+	list-style:inside;
+}
+
+#rewardLeftColumn ul li a{
+	font-weight:bold;
+}
+
+
+/***************************************UR LI***************************************/
+#leftContainer ul{
+padding:0px 5px 0px 10px;
+
+}
+#leftContainer ul li{
+	list-style:none;
+	padding:5px 0px 0px 0px;
+}
+
+#post_images{
+margin:0px;
+padding:0px;
+}
+
+.productDetailsRightAttributeSelection ul{
+	margin:0px 0px 0px 10px;
+	padding:0px;
+}
+
+.productDetailsRightAttributeSelection ul li{
+	margin:5px;
+	padding-left:3px;
+	padding-right:3px;
+	border:1px solid #999;
+	background:#EEE;
+	cursor:pointer;
+	display:inline;
+}
+
+.productDetailsRightAttributeSelection ul li.attributeSelected{
+	background:#333;
+	color:#CCC;
+}
+
+
+/*********************************************************BUTTONS*******************************************/
+.addToCart{
+	margin:0px 10px 0px 0px;
+	float:right;
+}
+button.addToCart{
+	margin:0px 10px 0px 0px;
+	float:right;
+	
+}
+button.shippingToThisAddressButton{
+	background:white;
+	width:167px;
+	height:37px;
+	border:none;
+	cursor:pointer;
+	background-image:url(/htdocs/css/images/ShippingButton.gif);
+}
+
+button{
+background:#069;
+color:white;
+}
+
+.submitInputButton{
+background:#069;
+color:white;
+}
+
+button[disabled]{
+background-color:white;
+color:#CCC;
+}
+
+
+
+
+
+/*********************************************************PRODUCT PREVIEW STYLES****************************/
+#productpreviewTitleBar{
+width:100%;
+float:left;
+}
+
+#productpreviewTitleBar #productName{
+	float:left;
+}
+
+#productpreviewTitleBar #productActions{
+	float:right;	
+}
+
+#productpreviewImageArea{
+	float:left;
+	width:50%;
+}
+
+#productpreviewDescriptionArea{
+	float:left;
+	width:50%;
+}
+
+#productPreviewSecondLevelArea{
+	float:left;
+	width:100%;
+}
+
+
+.productPrice{
+	color:red;
+	font-size:16px;
+	font-weight:bold;
+	text-decoration:line-through;
+}
+
+.discountPrice{
+	color:green;	
+	font-size:16px;
+	font-weight:bold;
+}
+
+.productDetailRightSidePanel{
+	float:right;
+	width:488px;	
+	margin:3px;
+	background-color:#CCC;
+	border:1px solid #999;
+}
+
+#productLeftColumn{
+	width:290px;
+	float:left;
+}
+
+.productDetailRightTitle{
+	padding:5px 5px 5px 15px;
+	background-color:#999;
+	color:#EEE;
+}
+
+.productDetailRightTop{
+	float:left;
+	width:463px;
+	padding:5px 5px 5px 20px;
+	text-align:left;
+}
+#productShoutBoxMainDiv{
+	float:left;
+	width:463px;
+	padding:5px 5px 5px 20px;
+	text-align:left;
+}
+
+.productDetailRightDescription{
+	float:left;
+	width:308px;
+}
+.productDetailRightReward{
+	float:left;
+	width:308px;
+}
+.productColorAttributeIndividualImage{
+	float:left;
+	width:150px;
+}
+
+.productDetailsRightAttributeSelection{
+	float:left;
+	width:463px;
+	padding:10px 5px 10px 20px;
+	background-color:#F5F5F5;
+}
+
+#productPublicShoutBoxForm{
+	float:left;
+	width:463px;
+	padding:10px 5px 10px 20px;
+	background-color:#F0F0F0;
+}
+
+
+
+.productDetailRightDiscountPrice{
+	color:green;	
+	font-weight:bold;
+	width:30%;
+	float:left;
+}
+
+.priceDetailRightPriceBlock{
+	float:left;
+	width:100%;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:16px;
+	font-weight:bold;
+	padding-top:20px;
+}
+.productDetailRightPrice{
+	color:red;
+	font-weight:bold;
+	text-decoration:line-through;
+	width:30%;
+	float:left;
+}
+
+.productDetailAttributeSelectionTitle{
+	font-weight:bold;
+	width:100%;
+	float:left;
+	margin:5px 0px 5px 0px;
+}
+/********************************SHOUT OUT**************************/
+.publicProductShoutOutMessage{
+	padding:3px;
+	border-bottom:1px solid #069;
+}
+.publicProductShoutOutMessageName{
+	font-weight:bold;
+}
+.publicProductShoutOutMessageTime{
+	font-style:italic;
+	text-align:right;
+}
+
+.publicProductShoutOutMessageContent{
+padding:5px 5px 5px 10px;	
+}
+
+/**********************************MESSAGES************************/
+.PrivateMessage{
+	padding:3px;
+	border-bottom:1px solid #069;
+}
+
+/******************reward point section*******************/
+#accountDetailRewardpoints{
+}
+
+#rewardpointTrackingAndPruchase{
+	float:left;
+margin-bottom:10px;
+}
+
+#referralTrackingAndInvite{
+	width:100%;
+	float:left;
+}
+
+.navigation{
+	width:100%;
+	float:left;
+	border-bottom:2px solid #666666; height:30px; width:100%;
+}
+
+.individualTrackingSection{
+	border-bottom:1px solid #006699;
+padding:3px;
+float:left; width:95%; height:35px;
+}
+/********************************PRODUCTPREVIEW TAG*****************/
+#productpreviewAttributeSelection{
+float:left;
+width:100%;
+}
+.productAttribute{
+list-style:none;
+display:inline; 
+border:1px dashed #CCC;
+cursor:pointer;
+}
+
+.productAttributeAvailable{
+	/*background-color:#CCC;*/
+	font-weight:bold;
+	border:1px solid #999;
+	padding:2px;
+}
+
+.productAttributeSelected{
+	background:#666;
+	color:white;
+	border:2px solid #000;
+}
+
+.productPreviewTagAttribute{
+	padding-left:0px;
+	width:100%;
+	float:left;
+}
+
+/*********************************************************************PRODUCT BOX**************/
+.productBox{
+	width:200px;
+	float:left;
+	background-color:#CCC;
+	margin:3px;
+}
+
+.productName{
+	padding:5px 5px 5px 5px;
+	background-color:#666;
+	color:#EEE;
+}
+.productSeller{
+	padding:2px 5px 3px 5px;
+	background-color:#999;
+	color:#FFF;
+}
+.productBoxPrice{
+	color:red;
+	font-weight:bold;
+	text-decoration:line-through;
+	width:45%;
+	float:left;
+}
+.discountBoxPrice{
+	color:green;	
+	font-weight:bold;
+	width:45%;
+	float:left;
+}
+.productFirstImage{
+	float:left;
+	text-align:center;
+}
+.productFirstImage a{
+	position:relative;
+}
+.productFirstImage:hover .productDescription{
+	display:block;
+	position:absolute;
+	background-color:#000;
+	opacity:0.8;filter:alpha(opacity=80);
+	color:#FFF;
+	padding:5px;
+	width:190px;
+	z-index:2;	
+}
+
+.productStatistics{
+	/*display:none;*/
+	display:block;
+	position:absolute;
+	height:24px;
+	background-color:#333;
+	opacity:0.6;filter:alpha(opacity=60);
+	color:#FFF;
+	padding:2px;
+	width:196px;
+	z-index:2;
+}
+
+.productDescription{
+display:none;
+}
+
+.productDetails{
+	float:left;
+	width:100%;
+	padding-top:3px;
+	background-color:#F0F0F0;
+}
+.productImages{
+	float:left;
+	width:75%;
+	padding:2px 2px 2px 5px;
+}
+.productIndividualImage{
+	float:left;
+	cursor:pointer;
+	margin-right:5px;
+}
+
+.productVideo{
+	float:right;
+	padding-top:5px;
+	padding-right:5px;
+	width:17%;
+}
+.productMedia{
+	float:left;
+	width:100%;
+}
+
+.priceBlock{
+	float:left;
+	padding:5px 2px 2px 5px;
+	width:45%;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	margin-bottom:5px;
+}
+.quickLook{
+	float:right;
+	margin-bottom:5px;
+}
+
+.currentImage{
+	border: 2px solid #C00;
+}
+
+/*****************************product review***********************/
+.productReviewSections{
+	float:left;
+	width:463px;
+	padding:5px 5px 5px 20px;
+	text-align:left;
+}
+
+.productReviewBox{
+	width:200px;
+	float:left;
+	background-color:#CCC;
+}
+.ProductReviewDetailsMainDiv{
+	padding:3px;
+	border-bottom:1px solid #069;
+	float:left;
+	width:437px;
+}
+.productReviewName{
+	height:11px;
+	font-weight:bold;
+}
+.productReivewTime{
+	float:left;
+	text-align:right;
+}
+.productReviewFormDiv{
+	float:left;
+	background-color:#F0F0F0; 
+	width:100%;
+}
+.productReviewFormInfosection{
+	background-color:#F0F0F0;
+float:left;
+padding:10px 5px 10px 20px;
+width:463px;
+}
+.productReviewDescription{
+	padding:5px 5px 5px 10px;
+}
+
+/********************************product listing***************************************/
+#productUploadTagImage{
+	background-image:url(/htdocs/css/images/product%20tag%20categories/product-tag-category-pictures.jpg);
+	width:450px;
+	height:300px;
+}
+.menStandardShoes{
+	background-position: 0 -240px;
+}
+.menLatinShoes{
+	background-position: -460px -240px;
+}
+.womenPracticeShoes{
+	background-position: -900px -260px;
+}
+.womenCompStandardShoes{	background-position: 0 -540px;}
+.womenCompLatinShoes{	background-position: -440px -570px;}
+.womenSocialStandard{	background-position: -900px -560px;}
+.womenSocialLatin{background-position: 0 -880px;}
+.latinSkirts{	background-position: -460px -870px;}
+.standardSkirts{background-position: -900px -870px;}
+.womenTop{	background-position: 0 -1180px;}
+/*********************************************************************FOOTER*******************/
+#footerImage{
+width:100%;
+float:left;
+margin:20px 0px 30px 0px;
+background:#CCC;
+}
+
+.footerIndex{
+	width:20%;
+	float:left;
+}
+/****************************ORDER********************************/
+.orderTitle{
+	margin-bottom:10px;
+	cursor:pointer;
+	float:left; width:100%; font-weight:bold; font-size:16px; background:#666; color:white; padding:5px;
+}
+.orderTitle:hover{
+	background:#F90;	
+}
+/**********************************************************************mislaneous**************/
+.dividerLine{
+	border-bottom:1px dashed #333;
+	width:458px;
+	margin-top:5px;
+	float:left;
+}
+
+.backgroundGreen{
+	background-color:#6F3;
+}
+
+.backgroundRed{
+	background-color:#F66;
+}
+
+.bigFont{
+	font-weight:bold; font-size:18px;
+}
+.italicAlert{
+	font-style:italic;
+	color:#F03;
+}
+
+#toggleAddShipping{
+font-size:14px;
+font-style:italic;
+color:#F90;
+}
