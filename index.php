@@ -56,11 +56,7 @@ Zend_Registry::set('orderLog', $orderLog);
 //set the settings in registry as config
 //Zend_Registry::set('config', $config);
 
-//configure database stuff given from the setttings.ini
-$params = array('host'     => 'localhost',
-				'username' => 'root',
-				'password' => 'theeagle1984',
-				'dbname'   => 'dancerialto');
+
 
 //I guess combining the type of sql with the informatin in params
 $db = Zend_Db::factory("pdo_mysql", $params);
